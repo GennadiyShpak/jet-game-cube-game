@@ -1,12 +1,14 @@
-.aside,
-.header {
+/* .header {
   padding: 10px;
   background-image: url(./images/light-evening-cumulus-clouds-in-the-sky-colorful-cloudy-sky-at-sunset-sky-texture-abstract-nature-background_158388-3826.jpg);
   background-size: cover;
   border: 1px solid black;
-}
-.header {
+} */
+.header,
+.aside {
   background-image: url(./images/1-388.jpg);
+  background-size: cover;
+  border: 1px solid black;
 }
 
 .elem-display {
@@ -47,7 +49,7 @@ img {
   height: 50px;
 }
 .container {
-  min-width: 1650px;
+  min-width: 1300px;
 }
 
 .ava {
@@ -109,22 +111,12 @@ img {
   cursor: crosshair;
 }
 
-.result__title {
-  color: cyan;
-}
-
 .score-line {
   display: flex;
 }
 .score-span,
 .score-name {
   margin-right: 5px;
-  font-size: 30px;
-  color: cyan;
-}
-.score {
-  font-size: 30px;
-  color: cyan;
 }
 .wrapper {
   text-align: center;
@@ -133,7 +125,6 @@ img {
 .rules-btn {
   text-decoration: underline;
   cursor: pointer;
-  color: red;
 }
 
 .rules__wrapper {
@@ -141,10 +132,7 @@ img {
   width: 700px;
   height: 700px;
 }
-.rules__title,
-.rules__item {
-  color: aqua;
-}
+
 .rules__list {
   display: flex;
   flex-direction: column;

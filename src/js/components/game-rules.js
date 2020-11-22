@@ -60,7 +60,7 @@ function resumeBattle () {
 
 function startPositionGenerate (el) {
   el.innerHTML='';
-  for (let i = 0; i < 12; i+=1) {
+  for (let i = 0; i < 10; i+=1) {
     createPlane(el);
   };
 }
