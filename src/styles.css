@@ -1,0 +1,152 @@
+.aside,
+.header {
+  padding: 10px;
+  background-image: url(./images/light-evening-cumulus-clouds-in-the-sky-colorful-cloudy-sky-at-sunset-sky-texture-abstract-nature-background_158388-3826.jpg);
+  background-size: cover;
+  border: 1px solid black;
+}
+.header {
+  background-image: url(./images/1-388.jpg);
+}
+
+.elem-display {
+  padding: 5px;
+  width: 150px;
+  height: 38px;
+  text-align: center;
+  border: 1px solid black;
+}
+.btn {
+  border: 1px solid black;
+  width: 150px;
+  border-radius: 20px;
+}
+.game-table,
+.score-table {
+  min-height: 900px;
+}
+
+.game-table {
+  background-image: url(./images/1-388.jpg);
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.game-zone {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.cube {
+  padding: 5px;
+}
+
+img {
+  width: 100px;
+  height: 50px;
+}
+.container {
+  min-width: 1650px;
+}
+
+.ava {
+  border: 1px solid white;
+}
+
+.disable {
+  position: relative;
+  animation-name: aircraft-crush;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  transform: translateY(300px);
+}
+@keyframes aircraft-crush {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1);
+  }
+}
+
+.jet {
+  padding: 30px;
+}
+
+.modal__wrapper {
+  background-image: url(./images/man.png);
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  padding: 15px;
+}
+
+.modal__btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+.modal__input {
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 5px;
+}
+
+.modal__input::placeholder {
+  padding: 5px;
+}
+.modal__title {
+  padding: 10px;
+}
+
+.result__title_item {
+  text-decoration: underline;
+}
+.game-zone {
+  cursor: crosshair;
+}
+
+.result__title {
+  color: cyan;
+}
+
+.score-line {
+  display: flex;
+}
+.score-span,
+.score-name {
+  margin-right: 5px;
+  font-size: 30px;
+  color: cyan;
+}
+.score {
+  font-size: 30px;
+  color: cyan;
+}
+.wrapper {
+  text-align: center;
+}
+
+.rules-btn {
+  text-decoration: underline;
+  cursor: pointer;
+  color: red;
+}
+
+.rules__wrapper {
+  padding-top: 100px;
+  width: 700px;
+  height: 700px;
+}
+.rules__title,
+.rules__item {
+  color: aqua;
+}
+.rules__list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid cyan;
+}
