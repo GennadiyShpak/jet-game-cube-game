@@ -11,7 +11,7 @@ export default class StopWatch {
         this.startTime = this.startTime - 1; 
         const time = this.pad(this.startTime);
         this.onTick(time)
-        }, 1000) 
+        }, 100) 
     }
 
     stop() {

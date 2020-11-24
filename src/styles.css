@@ -138,3 +138,6 @@ img {
   flex-direction: column;
   border: 1px solid cyan;
 }
+.rules__item {
+  color: cyan;
+}
